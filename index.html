@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>DataTables limpo</title>
+
+		<!--[if lte IE 9]>
+		<link rel="stylesheet" type="text/css" href="/media/css/ie.css" />
+	<![endif]-->
+
+	<!-- ======== Css Necessários ================================ -->
+		<link rel="stylesheet" href="css/site.css">
+		<link rel="stylesheet" href="css/responsive.dataTables.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	<!-- ======== Css Necessários ================================ -->
+	
+	<style>
+
+	div.fw-container div.fw-body div.content {
+		margin-top: 5em;
+	}
+
+	div.fw-body h1 {
+		display: none;
+	}
+
+	div.fw-container {
+		z-index: 1;
+	}
+	
+	</style>
+
+<body class="wide hero">
+
+	<br>
+	<br>
+	<br>
+
+	<div class="fw-container">
+
+		<div class="fw-hero">
+		
+
+			<div class="grid">
+				
+					<div class="unit w-2-3"><div class="hero-callout">
+
+						<div id="example_wrapper" class="dataTables_wrapper">
+
+								<div id="example_wrapper" class="dataTables_wrapper">
+
+								<div id="example_filter" class="dataTables_filter">
+
+								</div>
+
+								<table id="example" class="display nowrap dataTable dtr-inline collapsed" style="width: 100%;">
+
+									<thead>
+										<tr role="row">
+											<th>Name</th>
+											<th>Position</th>
+											<th>Office</th>
+											<th>Age</th>
+											<th>Start date</th>
+											<th>Salary</th>
+										</tr>
+									</thead>
+
+									<tbody>
+
+										<tr role="row" class="even">
+											<td>Pedro Ramos</td>
+											<td>Chief Executive Officer (CEO)</td>
+											<td>London</td>
+											<td>47</td>
+											<td>2009/10/09</td>
+											<td>$1,200,000</td>
+										</tr>
+										<tr role="row" class="even">
+											<td>Angelica Ramos</td>
+											<td>Chief Executive Officer (CEO)</td>
+											<td>London</td>
+											<td>47</td>
+											<td>2009/10/09</td>
+											<td>$1,200,000</td>
+										</tr>
+										<tr role="row" class="even">
+											<td>Bruno Ramos</td>
+											<td>Chief Executive Officer (CEO)</td>
+											<td>London</td>
+											<td>47</td>
+											<td>2009/10/09</td>
+											<td>$1,200,000</td>
+										</tr>
+										<tr role="row" class="even">
+											<td>Pedro Ramos</td>
+											<td>Chief Executive Officer (CEO)</td>
+											<td>London</td>
+											<td>47</td>
+											<td>2009/10/09</td>
+											<td>$1,200,000</td>
+										</tr>
+										<tr role="row" class="even">
+											<td>Angelica Ramos</td>
+											<td>Chief Executive Officer (CEO)</td>
+											<td>London</td>
+											<td>47</td>
+											<td>2009/10/09</td>
+											<td>$1,200,000</td>
+										</tr>
+										<tr role="row" class="even">
+											<td>Bruno Ramos</td>
+											<td>Chief Executive Officer (CEO)</td>
+											<td>London</td>
+											<td>47</td>
+											<td>2009/10/09</td>
+											<td>$1,200,000</td>
+										</tr>
+										<tr role="row" class="even">
+											<td>Pedro Ramos</td>
+											<td>Chief Executive Officer (CEO)</td>
+											<td>London</td>
+											<td>47</td>
+											<td>2009/10/09</td>
+											<td>$1,200,000</td>
+										</tr>
+										<tr role="row" class="even">
+											<td>Angelica Ramos</td>
+											<td>Chief Executive Officer (CEO)</td>
+											<td>London</td>
+											<td>47</td>
+											<td>2009/10/09</td>
+											<td>$1,200,000</td>
+										</tr>
+										<tr role="row" class="even">
+											<td>Bruno Ramos</td>
+											<td>Chief Executive Officer (CEO)</td>
+											<td>London</td>
+											<td>47</td>
+											<td>2009/10/09</td>
+											<td>$1,200,000</td>
+										</tr>
+										<tr role="row" class="even">
+											<td>Pedro Ramos</td>
+											<td>Chief Executive Officer (CEO)</td>
+											<td>London</td>
+											<td>47</td>
+											<td>2009/10/09</td>
+											<td>$1,200,000</td>
+										</tr>
+										<tr role="row" class="even">
+											<td>Angelica Ramos</td>
+											<td>Chief Executive Officer (CEO)</td>
+											<td>London</td>
+											<td>47</td>
+											<td>2009/10/09</td>
+											<td>$1,200,000</td>
+										</tr>
+										<tr role="row" class="even">
+											<td>Bruno Ramos</td>
+											<td>Chief Executive Officer (CEO)</td>
+											<td>London</td>
+											<td>47</td>
+											<td>2009/10/09</td>
+											<td>$1,200,000</td>
+										</tr>
+
+
+
+										<!-- <tr role="row" class="even">
+											<td class="sorting_1" tabindex="0">Angelica Ramos</td>
+											<td style="">Chief Executive Officer (CEO)</td>
+											<td style="">London</td>
+											<td class=" dt-body-right dt-body-right" style="">47</td>
+											<td style="">2009/10/09</td>
+											<td class=" dt-body-right dt-body-right" style="display: none;">$1,200,000</td>
+										</tr>
+										<tr role="row" class="odd">
+											<td tabindex="0" class="sorting_1">Ashton Cox</td>
+											<td style="">Junior Technical Author</td>
+											<td style="">San Francisco</td>
+											<td class=" dt-body-right dt-body-right" style="">66</td>
+											<td style="">2009/01/12</td>
+											<td class=" dt-body-right dt-body-right" style="display: none;">$86,000</td>
+										</tr> -->
+
+
+									</tbody>
+
+									<tfoot>
+
+										<tr>
+											<th rowspan="1" colspan="1">Name</th>
+											<th rowspan="1" colspan="1" style="">Position</th>
+											<th rowspan="1" colspan="1" style="">Office</th>
+											<th class="dt-body-right" rowspan="1" colspan="1" style="">Age</th>
+											<th rowspan="1" colspan="1" style="">Start date</th>
+											<th class="dt-body-right" rowspan="1" colspan="1" style="display: none;">Salary</th>
+										</tr>
+									</tfoot>
+								</table>
+
+								
+							</div>
+							</div>
+							</div>
+							</div>
+
+									
+			</div>
+		</div>
+	</div>
+
+
+	<script type="js/ga.js.download"></script>
+	<script src="js/site.js"></script>
+	<script src="js/dataTables.responsive.js"></script>
+
+	<script>			
+		$(document).ready( function () {
+			$('#example')
+			.addClass( 'nowrap' )
+			.dataTable( {
+				responsive: true,
+				columnDefs: [
+				{ targets: [-1, -3], className: 'dt-body-right' }
+				]
+			} );
+		} );
+	</script>
+
+	<script type="text/javascript" src="js/datatables.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready( function () {
+		    $('#example').DataTable();
+		} );
+	</script>
+
+	</body>
+</html>
